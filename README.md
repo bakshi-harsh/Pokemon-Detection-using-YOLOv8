@@ -1,10 +1,13 @@
 🧠 Pokémon Object Detection using YOLOv8
+
 An end-to-end computer vision project that detects Pokémon in images, videos, and live webcam streams using a high-accuracy YOLOv8 model. The project follows a clean, production-ready ML pipeline including dataset management, model training, evaluation, and real-time inference.
 
 🚀 Project Overview
+
 This project aims to build a robust Pokémon object detection system using deep learning. A custom annotated dataset was sourced from Roboflow, trained using YOLOv8, and optimized for high accuracy on limited GPU resources. The final system supports inference on static images, video files, and live camera feeds.
 
 ✨ Key Features
+
 📦 Custom annotated Pokémon dataset (Roboflow)
 🔍 High-accuracy object detection using YOLOv8
 🎥 Supports image, video, and webcam inference
@@ -15,6 +18,7 @@ This project aims to build a robust Pokémon object detection system using deep 
 
 
 🗂️ Project Structure
+
 Pokemon-Detection-using-YOLOv8/
 │
 ├── src/
@@ -36,6 +40,7 @@ Pokemon-Detection-using-YOLOv8/
 └── README.md
 
 📊 Dataset Information
+
 Source: Roboflow
 Type: Object Detection
 Format: YOLOv8
@@ -43,6 +48,7 @@ Annotations: Bounding boxes for multiple Pokémon classes
 Split: Train / Validation / Test
 
 🔗 Dataset Access
+
 The dataset was sourced and managed using Roboflow.
 You can access or recreate the dataset from Roboflow by searching for a Pokémon object detection dataset or by using your own Roboflow workspace and annotations.
 To download via API, use:
@@ -52,6 +58,7 @@ project = rf.workspace("pokmenon").project("pokemon_detection_scratch")
 dataset = project.version(1).download("yolov8", location="dataset")
 
 🛠️ Tech Stack
+
 1. Language: Python
 2. Model: YOLOv8 (Ultralytics)
 3. Libraries: PyTorch, OpenCV, NumPy
@@ -59,6 +66,7 @@ dataset = project.version(1).download("yolov8", location="dataset")
 5. Hardware: NVIDIA RTX 2050 (4GB VRAM)
 
 ⚙️ Installation
+
 1. Clone the repository:
 git clone https://github.com/bakshi-harsh/Pokemon-Detection-using-YOLOv8.git
 cd Pokemon-Detection-using-YOLOv8
@@ -67,12 +75,14 @@ cd Pokemon-Detection-using-YOLOv8
 pip install -r requirements.txt
 
 🏆 Results
+
 1. Achieved strong detection performance on multiple Pokémon classes
 2. Stable training with improved generalization
 3. Real-time inference on webcam with smooth FPS
 4. Screenshots and sample outputs are available in the screenshots/ folder.
 
 📌 Use Cases
+
 1. Computer Vision learning projects
 2. Deep Learning portfolios
 3. Object detection research
@@ -80,10 +90,12 @@ pip install -r requirements.txt
 5. Real-time vision applications
 
 📄 License
+
 This project is for educational and research purposes only.
 Pokémon images and names belong to their respective owners.
 
 👨‍💻 Author
+
 Harsh Kumar
 MCA (Hons. AI & ML)
 GitHub: https://github.com/bakshi-harsh
